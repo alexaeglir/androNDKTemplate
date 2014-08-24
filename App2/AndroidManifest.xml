@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 	<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-		package="com.aeglir.ndkdev.templateapp"
+		package="com.aeglir.ndkdev.app2"
 		android:versionCode="1"
 		android:versionName="1.0.0">
 		<supports-screens 
@@ -17,7 +17,7 @@
 			android:installLocation="preferExternal"
 			android:largeHeap="true"
 			android:debuggable="false" >
-			<activity android:name="com.aeglir.ndkdev.templateApp.TemplateAppActivity"
+			<activity android:name="com.aeglir.ndkdev.app2.App2Activity"
 				android:launchMode="singleTask" 
 				android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
 				android:screenOrientation="landscape"
